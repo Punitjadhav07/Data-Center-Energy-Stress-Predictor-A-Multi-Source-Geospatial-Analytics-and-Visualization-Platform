@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy
+requests
+plotly>=5.0
+seaborn
+matplotlib
+pydeck
+streamlit
+python-dotenv
+ipykernel
+nbconvert
+pyarrow
+statsmodels
