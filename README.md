@@ -1,4 +1,5 @@
 # Data Center Energy Stress Predictor
+
 ### A Multi-Source Geospatial Analytics and Visualization Platform
 
 B.Tech IT — Data Analytics & Visualization course project.
@@ -8,8 +9,8 @@ No machine learning or deep learning. All analysis is descriptive and statistica
 
 ## Regions covered
 
-| Region   | Demand source | Years     |
-|----------|---------------|-----------|
+| Region   | Demand source | Years      |
+| -------- | ------------- | ---------- |
 | Virginia | PJM DOM       | 2015–2017 |
 | Ohio     | PJM AEP       | 2015–2017 |
 | Texas    | EIA-930 ERCO  | 2019–2021 |
