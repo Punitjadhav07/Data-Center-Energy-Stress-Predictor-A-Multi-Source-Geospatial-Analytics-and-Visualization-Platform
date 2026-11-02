@@ -1,0 +1,6 @@
+# Pin the documented dark palette so the page does not follow the viewer's OS light/dark setting
+[theme]
+base = "dark"
+backgroundColor = "#0F1419"
+secondaryBackgroundColor = "#1A2233"
+textColor = "#C9D1D9"
