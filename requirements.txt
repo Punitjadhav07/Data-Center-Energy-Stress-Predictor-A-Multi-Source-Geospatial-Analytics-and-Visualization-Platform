@@ -1,13 +1,19 @@
-pandas>=2.0
-numpy
-requests
-plotly>=5.0
-seaborn
-matplotlib
-pydeck
-streamlit
-python-dotenv
-ipykernel
-nbconvert
-pyarrow
-statsmodels
+# Tested with Python 3.12.13
+# Data processing
+pandas==3.0.6
+numpy==2.5.4
+pyarrow==25.0.1          # pandas 3 uses it for string columns (tested configuration)
+requests==2.34.2         # EIA-930 and NSRDB API calls (notebook only)
+python-dotenv==1.2.4     # loads API keys from .env (notebook only)
+
+# Visualization
+plotly==7.1.0
+statsmodels==0.15.0      # required by plotly's trendline="lowess" (notebook)
+pydeck==0.9.3            # dashboard map
+
+# Dashboard
+streamlit==1.65.0
+
+# Notebook execution
+ipykernel==7.4.0
+nbconvert==7.17.2
